@@ -1,1 +1,7 @@
-# Fine-tune-Phi-2-
+# Fine-tuning Phi-2 for Sentiment Analysis
+
+Welcome to my GitHub repository for fine-tuning the Microsoft open-source Phi-2 Language Model for sentiment analysis on financial and economic information. This tutorial provides hands-on guidance on leveraging Phi-2's capabilities to analyze sentiment within the realm of finance, offering valuable insights for businesses ranging from market trends to investment decisions.
+
+In this tutorial, we utilize the FinancialPhraseBank dataset, a curated collection of financial news headlines annotated with sentiments from the perspective of a retail investor. With over 5000 sentences meticulously labeled as positive, negative, or neutral, this dataset serves as a cornerstone for training sentiment analysis models in the domain of finance. Originally introduced by scholars from the Aalto University School of Business in 2014, the dataset has since been utilized in various studies and research initiatives. Its structured format enables accurate classification of sentiments, empowering businesses to gauge market sentiment and make informed decisions.
+
+I configure and initialize a Simple Fine-tuning Trainer (SFTTrainer) for training a large language model using the Parameter-Efficient Fine-Tuning (PEFT) method, which saves time as it operates on a reduced number of parameters compared to the model's overall size. The PEFT method focuses on refining a limited set of model parameters, while keeping the majority of the pre-trained LLM parameters fixed. This significantly reduces both computational and storage expenses.

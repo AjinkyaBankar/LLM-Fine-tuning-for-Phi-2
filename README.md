@@ -1,4 +1,4 @@
-# Fine-tuning Phi-2 for Sentiment Analysis
+# Fine-tuning Microsoft Phi-2 for Sentiment Analysis
 
 Welcome to my GitHub repository for fine-tuning the Microsoft open-source Phi-2 Language Model for sentiment analysis on financial and economic information. This tutorial provides hands-on guidance on leveraging Phi-2's capabilities to analyze sentiment within the realm of finance, offering valuable insights for businesses ranging from market trends to investment decisions.
 
